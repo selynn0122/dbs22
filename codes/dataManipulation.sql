@@ -12,7 +12,7 @@ SELECT * from employees;
 
 -- delete data
 SELECT 'Delete Data' as 'INFO';
-SELECT * from employees WHERE Ssn = '653298653' INTO OUTFILE '~/dbsecure2020/data/employees_Richard.txt';
+SELECT * from employees WHERE Ssn = '653298653' INTO OUTFILE '~/docker_sshs/data/employees_Richard.txt';
 DELETE FROM employees WHERE Ssn = '653298653';
 SELECT * FROM employees;
 
